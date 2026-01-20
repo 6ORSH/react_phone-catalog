@@ -1,0 +1,37 @@
+.footer {
+  width: 100%;
+  background: #f8f8f8;
+  padding: 24px 0 16px 0;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.githubLink {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.githubLink:hover {
+  color: #0070f3;
+}
+
+.backToTop {
+  background: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.backToTop:hover {
+  background: #005bb5;
+}

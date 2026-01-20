@@ -1,7 +1,14 @@
 import './App.scss';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import NotFoundPage from './components/NotFoundPage';
 
 export const App = () => (
   <div className="App">
-    <h1>Product Catalog</h1>
+    <Header />
+    {/* Example usage of NotFoundPage, replace with router logic later */}
+    {/* <Routes> ... <Route path="*" element={<NotFoundPage />} /> ... </Routes> */}
+    <NotFoundPage />
+    <Footer />
   </div>
 );

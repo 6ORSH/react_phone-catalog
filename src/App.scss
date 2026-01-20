@@ -1,1 +1,13 @@
-// not empty
+
+// Smooth hover transitions for all elements
+* {
+	transition: color 0.2s, background 0.2s, box-shadow 0.2s, border 0.2s;
+}
+
+// Scale all image links by 10% on hover
+a img, .img-link img {
+	transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+a:hover img, .img-link:hover img {
+	transform: scale(1.1);
+}
